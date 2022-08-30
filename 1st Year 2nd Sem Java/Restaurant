@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Restaurant {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter the customer's sub total bill: ");
+        float sub_t = scan.nextFloat();
+
+        System.out.print("Enter the customer's Tip rate: ");
+        float rate = scan.nextFloat();
+
+        float percentage = rate / 100;
+        float tip = sub_t * percentage;
+        float total_bill = sub_t + tip;
+        System.out.println(percentage);
+
+        System.out.println("Tip: " + tip);
+
+        System.out.println("Total bill: " + total_bill);
+
+    }
+
+}
