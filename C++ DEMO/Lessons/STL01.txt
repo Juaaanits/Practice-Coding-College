@@ -1,0 +1,18 @@
+static array- defined before the start of the program
+
+myList[10]={1.....10}
+
+dynamic array
+
+myList[]={1.....10}
+
+size is not defined before the start of the program
+
+iterators- used for stepping through
+for (int x=0; x<10; x++)
+	cout<<myList[x] <<" ";
+
+
+
+
+
