@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Wavelength
+{
+    public static void main(String[] args)
+    {
+        char response;
+        do {
+            Scanner scan = new Scanner(System.in);
+
+            System.out.print("Input wavelength: ");
+            int wavelength = scan.nextInt();
+
+            if (380 <= wavelength && wavelength <= 450) {
+                System.out.println("Violet");
+            } else if (450 <= wavelength && wavelength <= 495) {
+                System.out.println("Blue");
+            } else if (495 <= wavelength && wavelength <= 570) {
+                System.out.println("Green");
+            } else if (570 <= wavelength && wavelength <= 590) {
+                System.out.println("Yellow");
+            } else if (590 <= wavelength && wavelength <= 620) {
+                System.out.println("Orange");
+            } else if (620 <= wavelength && wavelength <= 750) {
+                System.out.println("Red");
+            } else {
+                System.out.println("Invalid input");
+            }
+
+            System.out.print("Do you want to enter new input? Input y if yes and input n if no: ");
+            response = scan.next().charAt(0);
+        } while(response == 'y');
+    }
+}

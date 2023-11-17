@@ -1,0 +1,106 @@
+ 
+SuperClass:
+
+-MarahuyoBookstore
+
+Parent Class:
+-Bookstore
+
+SubClass:
+CustomerDetails
+Products
+Order
+OrderCart
+PaymentDetails
+
+
+Attributes:
+
+userID
+password
+
+customerName
+email
+date
+contactNumber
+
+schoolSupplies
+-pens
+-pencils
+-erasers
+-rulers
+-papers(Yellow Pad, Intermediate Pad, Bond Papers, Oslo Papers, Manila Paper, Cartolina, Notebooks)
+-markers
+-pentelpens
+-whiteboard marker
+fictionBooks
+-comics
+-manga
+-Greek Mythology books
+nonFiction
+-educational books
+-dictionary
+-encyclopedia
+-atlas
+-magazine
+coloringMaterials
+-pastel
+-paintbrush
+-posterpaint
+-coloring pencil
+-color pen
+-water color
+
+quantity
+choice
+
+itemCode
+itemDescription
+price
+amount
+
+
+Methods:
+
+LogIn()
+Register()
+
+saveDetails()
+
+
+display()-This will be used as a method overriding when displaying the products and displaying the output
+display(double price, double amount)-This will be used as a method overloading when displaying the customer's order and details
+
+
+paymentMode()
+accountBalance()
+cardNumber()
+
+
+
+
+
+Pseudocode:
+
+
+class Bookstore
+{
+
+}
+
+class CustomerDetails extends Bookstore
+{
+
+}
+class Products extends Bookstore
+{
+
+}
+
+class MarahuyoBookstore 
+{
+	public static void main (String[] args)
+	{
+		
+	}
+}

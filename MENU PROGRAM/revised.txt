@@ -1,0 +1,8 @@
+Objects:
+
+
+Customer
+schoolSupplies
+Books
+Order
+Payment
